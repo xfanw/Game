@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.BoxSprite" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.SpriteBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="2.441" />
+        <Point X="11" Y="2.862" />
+        <Point X="12.938" Y="2.862" />
+        <Point X="12.938" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="color" Type="Azul.Color" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="14" Y="4.191" />
+        <Point X="14" Y="4.562" />
+        <Point X="15" Y="4.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Name" Type="SpaceInvaders.BoxSpriteName" FixedFromPoint="true">
+      <Path>
+        <Point X="13.375" Y="4.191" />
+        <Point X="13.375" Y="5.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAEAAAAIAQAAAIAAACAABgAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\BoxSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Box" />
+      <Field Name="color" />
+      <Field Name="Name" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteMan" Collapsed="true">
+    <Position X="12.75" Y="2" Width="1.5" />
+    <AssociationLine Name="compareSprite" Type="SpaceInvaders.BoxSprite" FixedFromPoint="true">
+      <Path>
+        <Point X="13.562" Y="2.691" />
+        <Point X="13.562" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAAAEABAAABAAIAAAABABAAIAAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\BoxSpriteMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="compareSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.SpriteBase" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="2.441" />
+        <Point X="11" Y="2.862" />
+        <Point X="8.812" Y="2.862" />
+        <Point X="8.812" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Image" Type="SpaceInvaders.ImageName" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.812" Y="4.191" />
+        <Point X="7.812" Y="5.765" />
+        <Point X="4.5" Y="5.765" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAEAgIAAAQAAAAAABAAABgAAQAAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Name" />
+      <Field Name="Image" />
+      <Field Name="_Sprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameSpriteMan" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <AssociationLine Name="compareSprite" Type="SpaceInvaders.GameSprite" FixedFromPoint="true">
+      <Path>
+        <Point X="8.25" Y="2.691" />
+        <Point X="8.25" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACQAAQAAAAEABAAABAAIAAAAAABAAIAAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\GameSpriteMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="compareSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAIAAAAAAAAAAAAAAAAAAAAAAQBhgAABAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAkAAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Images\Image.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Name" />
+      <Field Name="Position" />
+      <Field Name="Texture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ImageMan" Collapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAQAAAAkABAAABAAIAAAAAABAAAAAAAE=</HashCode>
+      <FileName>View.Basic\Images\ImageMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="compareImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Texture" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Address" />
+      <Field Name="Name" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TextureMan" Collapsed="true">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAwAAAAEABAAABAAKAAAAAABAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Texture\TextureMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="compareTexture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul.Texture" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceInvaders.TxtureMan_Base" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Texture\TextureMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Txture_Base" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageMan_Base" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Images\ImageMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image_Base" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Images\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul.Rect" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteMan_Base" Collapsed="true">
+    <Position X="12.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\BoxSpriteMan.cs</FileName>
+      <NewMemberFileName>View.Basic\Sprite\GameSpriteMan.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSpriteMan_Base" Collapsed="true">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\GameSpriteMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Azul.Sprite" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azul.SpriteBox" Collapsed="true">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azul.Color" Collapsed="true">
+    <Position X="15" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="SpaceInvaders.TextureName" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Model.Basic\Enum\TextureName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.ImageName" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEABAAAABAAkAkAACBgAAAWQCIAAAIJAAwAAAAAEA=</HashCode>
+      <FileName>Model.Basic\Enum\ImageName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.GameSpriteName" Collapsed="true">
+    <Position X="8" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIkACEgAAAAAFgAAAiUCQAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Model.Basic\Enum\GameSpriteName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.BoxSpriteName" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAAAAAAAAAIAAAEAAAAAgAAIAAA=</HashCode>
+      <FileName>Model.Basic\Enum\BoxSpriteName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

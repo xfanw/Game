@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Image">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="GetPosition" Hidden="true" />
+      <Method Name="Image" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAkAAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Views\Images\Image.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Texture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Texture">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="GetAddress" Hidden="true" />
+      <Method Name="Texture" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Name" Type="SpaceInvaders.TextureName" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="2.434" />
+        <Point X="7" Y="3.423" />
+        <Point X="8.25" Y="3.423" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Name" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Font">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAMAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Views\Font\Font.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="fontSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.FontSprite">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <Members>
+      <Field Name="AzulRect" Hidden="true" />
+      <Field Name="AzulSprite" Hidden="true" />
+      <Field Name="Message" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Field Name="pColor" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAIBAAAAAAAEQAAAAAAAAAAMAQIAABgAIAAAAAA=</HashCode>
+      <FileName>Views\Font\FontSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="glyphName" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Glyph" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <AssociationLine Name="texture" Type="SpaceInvaders.Texture" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="3.596" />
+        <Point X="6.375" Y="3.596" />
+        <Point X="6.375" Y="2.434" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAGAAAEIAUAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Font\Glyph.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="texture" />
+      <Field Name="Name" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="SpaceInvaders.TextureName" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Enum\TextureName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GlyphName" Collapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAABAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enum\GlyphName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

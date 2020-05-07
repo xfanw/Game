@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.AnimationCommand">
+    <Position X="4.5" Y="4" Width="2" />
+    <Members>
+      <Method Name="AddImage" Hidden="true" />
+      <Method Name="AnimationCommand" Hidden="true" />
+      <Field Name="AnimationSprite" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Field Name="Name" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEAAAAAAQAAAAAAAAAAAAAwAACBAI=</HashCode>
+      <FileName>Timer\Commands\AlienAnimation\AnimationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageNode">
+    <Position X="4.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Commands\AlienAnimation\ImageNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ImageItem" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.AlienShootCommand">
+    <Position X="7.25" Y="4" Width="2" />
+    <Members>
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\AlienShootCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CommandBase">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\ComamndBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimerEvent" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAAAFAgAABAQAAAAAAAAAAAAAgAAAAIA=</HashCode>
+      <FileName>Timer\TimerEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Command" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TimerMan">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <Members>
+      <Field Name="_ActiveMan" Hidden="true" />
+      <Field Name="currentTime" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAQBAAAkABAAABAAIAAKAAAAAAIAAAEg=</HashCode>
+      <FileName>Timer\TimerMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image" Collapsed="true">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAkAAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Views\Images\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOMovingCommand">
+    <Position X="10" Y="4" Width="2.25" />
+    <Members>
+      <Method Name="GetInstance" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="UFOMovingCommand" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgCAABAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\UFO\UFOMovingCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

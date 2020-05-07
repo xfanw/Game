@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.DLinkedList">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAACAAgAAQBABghAEAAAAAAAAAAAAABIQBAAA=</HashCode>
+      <FileName>Model.Basic\LinkedList\DLinkedList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_end" />
+      <Field Name="_head" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkedNode">
+    <Position X="11.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAAAAAEAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.Basic\LinkedList\DLinkedNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerBase">
+    <Position X="5" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_actList" Type="SpaceInvaders.DLinkedList" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="1.188" />
+        <Point X="8.75" Y="1.188" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_resList" Type="SpaceInvaders.DLinkedList" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="1.438" />
+        <Point X="8.75" Y="1.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACABwgAAAAACACAIAANABAAAAAAAAAABAABIAAAAAEg=</HashCode>
+      <FileName>Model.Basic\LinkedList\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_actList" />
+      <Field Name="_resList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SDLinkedList">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.Basic\LinkedList\SortedDLinkedList\SDLinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SDLinkedNode">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIA=</HashCode>
+      <FileName>Model.Basic\LinkedList\SortedDLinkedList\SDLinkedNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

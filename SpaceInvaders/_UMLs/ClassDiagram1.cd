@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Batch" Collapsed="true">
+    <Position X="55.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABAAAAAAIAAAEAAAABAQAAAAABAAAAJAAiAAAAIA=</HashCode>
+      <FileName>Batch\Batch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Component" Collapsed="true">
+    <Position X="36.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAEAAAARAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Composite" Collapsed="true">
+    <Position X="28.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAQEAAAABAAAQAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="46.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxObserver" Collapsed="true">
+    <Position X="65" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObservers\BoxObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MoveLeftObserver" Collapsed="true">
+    <Position X="69.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObservers\MoveLeftObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MoveRightObserver" Collapsed="true">
+    <Position X="35.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObservers\MoveRightObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.OneObserver" Collapsed="true">
+    <Position X="40.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObservers\OneObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShootObserver" Collapsed="true">
+    <Position X="44.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObservers\ShootObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TwoObserver" Collapsed="true">
+    <Position X="49.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObservers\TwoObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveAlien" Collapsed="true">
+    <Position X="38.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Removes\RemoveAlien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveBomb" Collapsed="true">
+    <Position X="41" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Removes\RemoveBomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveBrick" Collapsed="true">
+    <Position X="45.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Removes\RemoveBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveBullet" Collapsed="true">
+    <Position X="50" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Removes\RemoveBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AnimationCommand" Collapsed="true">
+    <Position X="52.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACABAEAAAAAAQAAAAAAAAAAAAAwAACBAI=</HashCode>
+      <FileName>Timer\Commands\AlienAnimation\AnimationCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageNode" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Commands\AlienAnimation\ImageNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienFasterCommand" Collapsed="true">
+    <Position X="29.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\AlienMove\AlienFasterCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienMoveXCommand" Collapsed="true">
+    <Position X="32" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Controller.Timer\Commands\AlienMove\AlienMoveXCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienMoveYCommand" Collapsed="true">
+    <Position X="34.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\AlienMove\AlienMoveYCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienShootCommand" Collapsed="true">
+    <Position X="36.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\AlienShootCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CommandBase" Collapsed="true">
+    <Position X="41" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\ComamndBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOMovingCommand" Collapsed="true">
+    <Position X="43.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAgCAABAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\UFO\UFOMovingCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOStartingCommand" Collapsed="true">
+    <Position X="47.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Timer\Commands\UFO\UFOStartingCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimerEvent" Collapsed="true">
+    <Position X="55.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAAAAAAAAAAFAgAABAQAAAAAAAAAAAAAgAAAAIA=</HashCode>
+      <FileName>Timer\TimerEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienLeaf" Collapsed="true">
+    <Position X="54.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAgAAAAAAEAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AliensCol" Collapsed="true">
+    <Position X="20.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AliensCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AliensGrid" Collapsed="true">
+    <Position X="20.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AliensGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BombCol" Collapsed="true">
+    <Position X="22.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAgAAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\BombCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BombLeaf" Collapsed="true">
+    <Position X="40.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABAAAACAAEAQEAAAAAABAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\BombLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BumperCol" Collapsed="true">
+    <Position X="31.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Boundaries\BumperCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BumperLeaf" Collapsed="true">
+    <Position X="49.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Boundaries\BumperLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.WallCol" Collapsed="true">
+    <Position X="36.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Boundaries\WallCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.WallLeaf" Collapsed="true">
+    <Position X="38.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Boundaries\WallLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="36.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABgAAAAAAEASAAAAAAAACAAAEAAgAAADgAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNode" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NullGameObject" Collapsed="true">
+    <Position X="18.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIYAggAAAAAAEAAEAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\NullGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldBlock" Collapsed="true">
+    <Position X="29.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\ShieldBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldBrick" Collapsed="true">
+    <Position X="45.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\ShieldBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldCol" Collapsed="true">
+    <Position X="29.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\ShieldCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldGrid" Collapsed="true">
+    <Position X="29.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\ShieldGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipCol" Collapsed="true">
+    <Position X="34" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipLeaf" Collapsed="true">
+    <Position X="52" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYQABEAAAAAAAAQEAAAAAAAAAAAAAIIMQAAAAAAAAQA=</HashCode>
+      <FileName>GameObject\Ship\ShipLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipBulletCol" Collapsed="true">
+    <Position X="25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\ShipBullet\ShipBulletCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipBulletLeaf" Collapsed="true">
+    <Position X="43" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAEAAUAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\ShipBullet\ShipBullitLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOCol" Collapsed="true">
+    <Position X="27.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\UFO\UFOCol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOLeaf" Collapsed="true">
+    <Position X="47.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAgAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\UFO\UFOLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SDLinkedNode" Collapsed="true">
+    <Position X="55.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIA=</HashCode>
+      <FileName>Models\LinkedList\SortedDLinkedList\SDLinkedNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionPair" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABBEAgAAAAQAAIAAAABgCAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionPair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Visitor" Collapsed="true">
+    <Position X="36.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Visitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BombObserver" Collapsed="true">
+    <Position X="53.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Collider\BombObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipBulletObserver" Collapsed="true">
+    <Position X="56" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Collider\ShipBulletObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipReadyObserver" Collapsed="true">
+    <Position X="58.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\State\ShipReadyObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.HitAlienObserver" Collapsed="true">
+    <Position X="60.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Collidee\HitAlienObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.HitShieldObserver" Collapsed="true">
+    <Position X="62.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Collidee\HitShieldObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOObserver" Collapsed="true">
+    <Position X="67.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Collidee\UFOObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Observer" Collapsed="true">
+    <Position X="52.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAACAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Observer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ScoreObserver" Collapsed="true">
+    <Position X="38" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\State\ScoreObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoomObserver" Collapsed="true">
+    <Position X="42.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Sound\BoomObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.WallLRObserver" Collapsed="true">
+    <Position X="47" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Sound\WallLRObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.WallTopObserver" Collapsed="true">
+    <Position X="51.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observers\Sound\WallTopObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Font" Collapsed="true">
+    <Position X="84.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAMAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Views\Font\Font.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FontSprite" Collapsed="true">
+    <Position X="70.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIBAAAAAAAEQAAAAAAAAAAMAQIAABgAIAAAAAA=</HashCode>
+      <FileName>Views\Font\FontSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Glyph" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAGAAAEIAUAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Font\Glyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image_Base" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Images\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAkAAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Views\Images\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySprite" Collapsed="true">
+    <Position X="75.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAFAAEAAAAAAAAAAAAAAAAABEAAAAAAAE=</HashCode>
+      <FileName>Views\ProxySprites\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sound" Collapsed="true">
+    <Position X="82" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEAAAAAAQAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Views\Sound\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSprite" Collapsed="true">
+    <Position X="77.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAABAAEAAAAIAQAAAIAAACAABgAAAAAAAA=</HashCode>
+      <FileName>Views\Sprite\BoxSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite" Collapsed="true">
+    <Position X="73" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAEAgIAAAQAAAAAABAAABgAAQAAAAA=</HashCode>
+      <FileName>Views\Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="74" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAIAAAAAAAAAAAAAAAAAAAAAAQBhgAABAAAA=</HashCode>
+      <FileName>Views\Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Txture_Base" Collapsed="true">
+    <Position X="79.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Texture" Collapsed="true">
+    <Position X="79.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InputMan" Collapsed="true">
+    <Position X="11.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAACAAAAAAASAAAAAAAAMABABABAAoDAiAAAEAAMA=</HashCode>
+      <FileName>Input\InputMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveMan" Collapsed="true">
+    <Position X="11.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAAAAQAAAAAAAAAABAAiAAAAAAAAAABAAAI=</HashCode>
+      <FileName>Removes\RemoveMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpaceInvaders" Collapsed="true">
+    <Position X="10" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BombMan" Collapsed="true">
+    <Position X="8.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAEAIYAAAAACAAAgBACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bombs\BombMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipMan" Collapsed="true">
+    <Position X="8.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAgBkAQBCAAAAAAAABADAAAAAAAAACAEQAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Program" Collapsed="true">
+    <Position X="8.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Main.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienObjectFactory" Collapsed="true">
+    <Position X="6.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\AlienObjectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BrickObjectFactory" Collapsed="true">
+    <Position X="10" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAABAADoBQAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\BrickObjectFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BumpFactory" Collapsed="true">
+    <Position X="11.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\BumpFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CommandFactory" Collapsed="true">
+    <Position X="8.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Models\Factories\CommandFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageFactory" Collapsed="true">
+    <Position X="10" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\ImageFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureFactory" Collapsed="true">
+    <Position X="13.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\TextureFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.WallFactory" Collapsed="true">
+    <Position X="6.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\WallFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Nums" Collapsed="true">
+    <Position X="6.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAQABBAEACAAAAAAAABAAAAkAABAAAAEAAQAAA=</HashCode>
+      <FileName>Models\StaticNums\Nums.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Rand" Collapsed="true">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\StaticNums\Rondam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Score" Collapsed="true">
+    <Position X="6.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAKAAAAAAAAABAAAAAAIAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\StaticNums\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObject" Collapsed="true">
+    <Position X="13.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAACKAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject\CollisionObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionRect" Collapsed="true">
+    <Position X="6.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Collision\CollisionObject\CollisionRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Subject" Collapsed="true">
+    <Position X="11.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAABICAA=</HashCode>
+      <FileName>Collision\Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SceneContext" Collapsed="true">
+    <Position X="13.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABEAAAAAAAQABIAAAAAAAAAgAAAAAQAAAAAAAAQA=</HashCode>
+      <FileName>Scene\SceneContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="SpaceInvaders.AnimationName" Collapsed="true">
+    <Position X="6.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAgAAEIAAAAAAAEAAAAAAAAAACAAAQAA=</HashCode>
+      <FileName>Models\Enum\AnimationName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.BatchName" Collapsed="true">
+    <Position X="8.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAAAAAAggAAAAABgAAACEKAAAAQAAAACACAAAA=</HashCode>
+      <FileName>Models\Enum\BatchName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.BoxSpriteName" Collapsed="true">
+    <Position X="10" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAgAAAAAAAAAAAAIAAAEAAAAAgAAIAAA=</HashCode>
+      <FileName>Models\Enum\BoxSpriteName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.CollisionPairName" Collapsed="true">
+    <Position X="11.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACACgAgAAJAAARQIAAAAAAAAJAAAEQAAAAAI=</HashCode>
+      <FileName>Models\Enum\CollisionPairName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.GameSpriteName" Collapsed="true">
+    <Position X="13.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAIkACEgAAAAAFgAAAiUCQAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enum\GameSpriteName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.ImageName" Collapsed="true">
+    <Position X="8.25" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEABAAAABAAkAkAACBgAAAWQCIAAAIJAAgQAAAEAA=</HashCode>
+      <FileName>Models\Enum\ImageName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.TextureName" Collapsed="true">
+    <Position X="11.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Models\Enum\TextureName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.TimerName" Collapsed="true">
+    <Position X="13.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEUBAAgAAAAAAAAAQIAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\Enum\TimerName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.SoundName" Collapsed="true">
+    <Position X="10" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAAAAADgMQAAAABAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\Sound\SoundName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SpaceInvaders.Models.Enums.GroupName" Collapsed="true">
+    <Position X="6.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enum\GroupName.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

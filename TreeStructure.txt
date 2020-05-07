@@ -1,0 +1,265 @@
+
+  CleanAll.Bat
+  Final Project.pdf
+  SpaceInvaders.sln
+ 
+©¤SpaceInvaders
+    ©¦  Game.cs
+    ©¦  Main.cs
+    ©¦  
+    ©À©¤Batch
+    ©¦  ©¦  BaseNodeMan.cs
+    ©¦  ©¦  Batch.cs
+    ©¦  ©¦  SpriteBaseNode.cs
+    ©¦  ©¦  
+    ©¦  ©¸©¤BatchMan
+    ©¦          OverBatchMan.cs
+    ©¦          PlayBatchMan.cs
+    ©¦          SelectBatchMan.cs
+    ©¦        
+    ©À©¤Collision
+    ©¦  ©¦  CollisionPair.cs
+    ©¦  ©¦  ColPairMan.cs
+    ©¦  ©¦  Observer.cs
+    ©¦  ©¦  Subject.cs
+    ©¦  ©¦  Visitor.cs
+    ©¦  ©¦  
+    ©¦  ©¸©¤CollisionObject
+    ©¦          CollisionObject.cs
+    ©¦          CollisionRect.cs
+    ©¦          
+    ©À©¤Composite
+    ©¦  ©¦  Component.cs
+    ©¦  ©¦  Composite.cs
+    ©¦  ©¦  Leaf.cs
+    ©¦  ©¦  
+    ©¦  ©¸©¤Iterator
+    ©¦          ForwardIterator.cs
+    ©¦          Iterator.cs
+    ©¦          ReverseIterator.cs
+    ©¦          
+    ©À©¤GameObject
+    ©¦  ©¦  GameObject.cs
+    ©¦  ©¦  GameObjectMan.cs
+    ©¦  ©¦  GameObjectNode.cs
+    ©¦  ©¦  NullGameObject.cs
+    ©¦  ©¦  
+    ©¦  ©À©¤Aliens
+    ©¦  ©¦      AlienGridMan.cs
+    ©¦  ©¦      AlienLeaf.cs
+    ©¦  ©¦      AliensCol.cs
+    ©¦  ©¦      AliensGrid.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Bombs
+    ©¦  ©¦  ©¦  BombCol.cs
+    ©¦  ©¦  ©¦  BombLeaf.cs
+    ©¦  ©¦  ©¦  BombMan.cs
+    ©¦  ©¦  ©¦  
+    ©¦  ©¦  ©¸©¤Strategy
+    ©¦  ©¦          FallCross.cs
+    ©¦  ©¦          FallStrategy.cs
+    ©¦  ©¦          FallT.cs
+    ©¦  ©¦          FallZigZag.cs
+    ©¦  ©¦          
+    ©¦  ©À©¤Boundaries
+    ©¦  ©¦      BumperCol.cs
+    ©¦  ©¦      BumperLeaf.cs
+    ©¦  ©¦      WallCol.cs
+    ©¦  ©¦      WallLeaf.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Shield
+    ©¦  ©¦      ShieldBlock.cs
+    ©¦  ©¦      ShieldBrick.cs
+    ©¦  ©¦      ShieldCol.cs
+    ©¦  ©¦      ShieldGrid.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Ship
+    ©¦  ©¦  ©¦  ShipCol.cs
+    ©¦  ©¦  ©¦  ShipLeaf.cs
+    ©¦  ©¦  ©¦  ShipMan.cs
+    ©¦  ©¦  ©¦  
+    ©¦  ©¦  ©¸©¤State
+    ©¦  ©¦          ShipDeadState.cs
+    ©¦  ©¦          ShipMissleFlyingState.cs
+    ©¦  ©¦          ShipReadyState.cs
+    ©¦  ©¦          ShipState.cs
+    ©¦  ©¦          
+    ©¦  ©À©¤ShipBullet
+    ©¦  ©¦      ShipBulletCol.cs
+    ©¦  ©¦      ShipBullitLeaf.cs
+    ©¦  ©¦      
+    ©¦  ©¸©¤UFO
+    ©¦          UFOCol.cs
+    ©¦          UFOLeaf.cs
+    ©¦          UFOMan.cs
+    ©¦          
+    ©À©¤Input
+    ©¦  ©¦  InputMan.cs
+    ©¦  ©¦  
+    ©¦  ©¸©¤InputObservers
+    ©¦          BoxObserver.cs
+    ©¦          MoveLeftObserver.cs
+    ©¦          MoveRightObserver.cs
+    ©¦          OneObserver.cs
+    ©¦          ShootObserver.cs
+    ©¦          
+    ©À©¤Models
+    ©¦  ©À©¤Enum
+    ©¦  ©¦      AnimationName.cs
+    ©¦  ©¦      BatchName.cs
+    ©¦  ©¦      BoxSpriteName.cs
+    ©¦  ©¦      CollisionPairName.cs
+    ©¦  ©¦      FontName.cs
+    ©¦  ©¦      GameSpriteName.cs
+    ©¦  ©¦      GlyphName.cs
+    ©¦  ©¦      GroupName.cs
+    ©¦  ©¦      ImageName.cs
+    ©¦  ©¦      TextureName.cs
+    ©¦  ©¦      TimerName.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Factories
+    ©¦  ©¦      AlienObjectFactory.cs
+    ©¦  ©¦      BrickObjectFactory.cs
+    ©¦  ©¦      BumpFactory.cs
+    ©¦  ©¦      CommandFactory.cs
+    ©¦  ©¦      ImageFactory.cs
+    ©¦  ©¦      TextureFactory.cs
+    ©¦  ©¦      WallFactory.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤LinkedList
+    ©¦  ©¦  ©¦  DLinkedList.cs
+    ©¦  ©¦  ©¦  DLinkedNode.cs
+    ©¦  ©¦  ©¦  ManagerBase.cs
+    ©¦  ©¦  ©¦  
+    ©¦  ©¦  ©¸©¤SortedDLinkedList
+    ©¦  ©¦          SDLinkedList.cs
+    ©¦  ©¦          SDLinkedNode.cs
+    ©¦  ©¦          
+    ©¦  ©¸©¤StaticNums
+    ©¦          Nums.cs
+    ©¦          Rondam.cs
+    ©¦          Score.cs
+    ©¦          
+    ©À©¤Observers
+    ©¦  ©À©¤Collidee
+    ©¦  ©¦      HitAlienObserver.cs
+    ©¦  ©¦      HitBombObserver.cs
+    ©¦  ©¦      HitShieldObserver.cs
+    ©¦  ©¦      HitShipObserver.cs
+    ©¦  ©¦      UFOObserver.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Collider
+    ©¦  ©¦      BombObserver.cs
+    ©¦  ©¦      ShipBulletObserver.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Sound
+    ©¦  ©¦      BoomObserver.cs
+    ©¦  ©¦      WallSoundObserver.cs
+    ©¦  ©¦      WallTopObserver.cs
+    ©¦  ©¦      
+    ©¦  ©¸©¤State
+    ©¦          GameOverObserver.cs
+    ©¦          ScoreObserver.cs
+    ©¦          ShipDeathObserver.cs
+    ©¦          ShipReadyObserver.cs
+    ©¦          
+    ©¦      
+    ©À©¤Removes
+    ©¦      RemoveAlien.cs
+    ©¦      RemoveBomb.cs
+    ©¦      RemoveBrick.cs
+    ©¦      RemoveBullet.cs
+    ©¦      RemoveMan.cs
+    ©¦      RemoveShip.cs
+    ©¦      RemoveUFO.cs
+    ©¦      
+    ©À©¤Scene
+    ©¦      SceneContext.cs
+    ©¦      SceneOver.cs
+    ©¦      ScenePlay.cs
+    ©¦      SceneSelect.cs
+    ©¦      SceneState.cs
+    ©¦      
+    ©À©¤Timer
+    ©¦  ©¦  GlobalTimer.cs
+    ©¦  ©¦  TimerEvent.cs
+    ©¦  ©¦  TimerMan.cs
+    ©¦  ©¦  
+    ©¦  ©¸©¤Commands
+    ©¦      ©¦  AlienShootCommand.cs
+    ©¦      ©¦  ComamndBase.cs
+    ©¦      ©¦  GameReadyCommand.cs
+    ©¦      ©¦  
+    ©¦      ©À©¤AlienAnimation
+    ©¦      ©¦      AnimationCommand.cs
+    ©¦      ©¦      AnimationMan.cs
+    ©¦      ©¦      ImageNode.cs
+    ©¦      ©¦      
+    ©¦      ©À©¤AlienMove
+    ©¦      ©¦      AlienFasterCommand.cs
+    ©¦      ©¦      AlienMoveYCommand.cs
+    ©¦      ©¦      
+    ©¦      ©À©¤AlienMovingSound
+    ©¦      ©¦      AlienSoundCommand.cs
+    ©¦      ©¦      SoundNode.cs
+    ©¦      ©¦      
+    ©¦      ©À©¤HitAnimation
+    ©¦      ©¦      RemoveDeadShip.cs
+    ©¦      ©¦      RemoveDeath.cs
+    ©¦      ©¦      
+    ©¦      ©¸©¤UFO
+    ©¦              UFOMovingCommand.cs
+    ©¦              UFOStartingCommand.cs
+    ©¦              
+    ©À©¤Views
+    ©¦  ©À©¤Font
+    ©¦  ©¦      Font.cs
+    ©¦  ©¦      FontMan.cs
+    ©¦  ©¦      FontSprite.cs
+    ©¦  ©¦      Glyph.cs
+    ©¦  ©¦      GlyphMan.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Images
+    ©¦  ©¦      Image.cs
+    ©¦  ©¦      ImageMan.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤ProxySprites
+    ©¦  ©¦      ProxyMan.cs
+    ©¦  ©¦      ProxySprite.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Sound
+    ©¦  ©¦      Sound.cs
+    ©¦  ©¦      SoundMan.cs
+    ©¦  ©¦      SoundName.cs
+    ©¦  ©¦      
+    ©¦  ©À©¤Sprite
+    ©¦  ©¦      BoxSprite.cs
+    ©¦  ©¦      BoxSpriteMan.cs
+    ©¦  ©¦      GameSprite.cs
+    ©¦  ©¦      GameSpriteMan.cs
+    ©¦  ©¦      SpriteBase.cs
+    ©¦  ©¦      
+    ©¦  ©¸©¤Texture
+    ©¦          Texture.cs
+    ©¦          TextureMan.cs
+    ©¦          
+    ©¸©¤_UMLs
+            1-ObjectPool.cd
+            2-Adaptors.cd
+            3-Singleton.cd
+            4-State.cd
+            5-Iterator.cd
+            6-Strategy.cd
+            7-Flyweight.cd
+            8-Proxy.cd
+            9-Command.cd
+			10-Factory.cd
+            11-Composite.cd
+            12-Visitor.cd
+            13-Observer.cd
+            14-Template.cd
+            15-NullObject.cd
+            ClassDiagram1.cd
+            Collision.cd
+            PA4.cd
+            

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ShipDeadState" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\State\ShipDeadState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipMissleFlyingState" Collapsed="true">
+    <Position X="4.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\State\ShipMissleFlyingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipReadyState">
+    <Position X="2" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\State\ShipReadyState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipState" Collapsed="true">
+    <Position X="4.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIIQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\State\ShipState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SceneOver" Collapsed="true">
+    <Position X="6.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACBAAAAAAAwAAAQAAAAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>Scene\SceneOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ScenePlay" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAAAwAAAAAAAAACAAAAAAIAAAAAgAQAAAA=</HashCode>
+      <FileName>Scene\ScenePlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SceneSelect">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQACAABAAAAAwAAAAAAAAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>Scene\SceneSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SceneState" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAAAwAAAAAAEAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>Scene\SceneState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpaceInvaders" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SceneContext" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABEAAAAAAAQABIAAAAAAAAAgAAAAAQAAAAAAAAQA=</HashCode>
+      <FileName>Scene\SceneContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipMan" Collapsed="true">
+    <Position X="1.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAgBkAQBCAAAAAAAABADAAAAAAAAACAEQAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Ship" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ShipLeaf" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYQABEAAAAAAAAQEAAAAAAAAAAAAAIIMQAAAAAAAAQA=</HashCode>
+      <FileName>GameObject\Ship\ShipLeaf.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="state" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

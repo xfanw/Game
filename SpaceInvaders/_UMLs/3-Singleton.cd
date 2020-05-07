@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameSpriteMan">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="AddAll" Hidden="true" />
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_spriteMan" Type="SpaceInvaders.GameSpriteMan" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7" Y="2.368" />
+        <Point X="8.01" Y="2.368" />
+        <Point X="8.01" Y="1.616" />
+        <Point X="7" Y="1.616" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACQAAQAAAAEABAAABAAIAAAAAABAAIAAAAA=</HashCode>
+      <FileName>View.Basic\Sprite\GameSpriteMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_spriteMan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ShipMan">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ShipMan.StateName" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\Ship\ShipMan.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="_ShipMan" Type="SpaceInvaders.ShipMan" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10" Y="2.688" />
+        <Point X="11.333" Y="2.688" />
+        <Point X="11.333" Y="1.682" />
+        <Point X="10" Y="1.682" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAgBkAQACAAEAQAAABADIAAAAAABACAAQAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipMan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_ShipMan" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

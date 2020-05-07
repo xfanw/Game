@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ImageFactory" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\ImageFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOFactory" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\ImageFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BrickFactory" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\ImageFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SquidOpenFactory" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\ImageFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureFactory">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Factories\TextureFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureMan">
+    <Position X="4.25" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="AddAll" Hidden="true" />
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="GetInstance" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="TextureMan" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAwAAAAEABAAABAAKAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Views\Texture\TextureMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageMan">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="AddAll" Hidden="true" />
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="GetInstance" Hidden="true" />
+      <Method Name="ImageMan" Hidden="true" />
+      <Method Name="Initialize" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAQAAAAkABAAABAAIAAAAAABAAAAAAAE=</HashCode>
+      <FileName>Views\Images\ImageMan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
